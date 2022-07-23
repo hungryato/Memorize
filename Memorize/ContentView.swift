@@ -9,7 +9,8 @@ import SwiftUI
 
 // View
 struct ContentView: View {
-    var viewModel: EmojiMemoryGame
+    // 변경된 내용을 적용하기 위해 @ObservedObject 사용
+    @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
         ScrollView {
@@ -17,6 +18,9 @@ struct ContentView: View {
                 ForEach(viewModel.cards) { card in
                     CardView(card: card)
                         .aspectRatio(2/3, contentMode: .fit)
+                        .onTapGesture {
+                            viewModel.choose(card)
+                        }
                 }
             }
         }
