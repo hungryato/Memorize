@@ -1,0 +1,10 @@
+# Lecture 2: Learning more about SwiftUI
+1. [VStack](https://developer.apple.com/documentation/swiftui/vstack)
+2. [HStack](https://developer.apple.com/documentation/swiftui/hstack)
+3. [Button](https://developer.apple.com/documentation/swiftui/button)
+4. [LazyVGrid](https://developer.apple.com/documentation/swiftui/lazyvgrid)
+5. [GridItem](https://developer.apple.com/documentation/swiftui/griditem)
+6. [ForEach](https://developer.apple.com/documentation/swiftui/foreach)
+7. [Spacer](https://developer.apple.com/documentation/swiftui/spacer)
+8. [Image](https://developer.apple.com/documentation/swiftui/image)
+9. [@State](https://developer.apple.com/documentation/swiftui/state)
