@@ -4,3 +4,4 @@
 3. [RoundedRectangle](https://developer.apple.com/documentation/swiftui/roundedrectangle)
 4. [PreviewProvider](https://developer.apple.com/documentation/swiftui/previewprovider)
 5. [View](https://developer.apple.com/documentation/swiftui/view)
+6. [The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
