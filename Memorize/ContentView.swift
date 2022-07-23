@@ -7,9 +7,7 @@
 
 import SwiftUI
 
-// View
 struct ContentView: View {
-    // 변경된 내용을 적용하기 위해 @ObservedObject 사용
     @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
@@ -43,6 +41,8 @@ struct CardView: View {
                     .stroke(lineWidth: 3)
                 Text(card.content)
                     .font(.largeTitle)
+            } else if card.isMatched {
+                shape.opacity(0)
             } else {
                 shape
                     .fill()
